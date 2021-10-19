@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(0deg, white, rgb(102, 100, 207)) fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+    height: 15%;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.7) fixed;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(84px);
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper-inside {
+    position: fixed;
+    height: 100%;
+    width: 80%;
+    left: 10%;
+}
+
+.header-element {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.header-btn {
+    border: 0px;
+}
+
+.black-line {
+    position: fixed;
+    border: 2px solid black;
+    color: black;
+    background-color: black;
+    animation-duration: 1s;
+    z-index: 1;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    margin-top: 50px;
+    z-index: 99;
+}
+
+.ajax {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}

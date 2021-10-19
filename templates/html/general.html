@@ -1,0 +1,48 @@
+{% load static %}
+<div class="ajax">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+            <div class="front">
+                <!-- front content -->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src={% static 'img/chargesImage.png' %} class="card-img-top" alt="Альтернатива">
+                    </div>
+                </div>
+            </div>
+            <div class="back">
+                <!-- back content -->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Элементарные заряды</h5>
+                        <p class="card-text">Симуляция элементарных зарядов. Создать заряд - ЛКМ, поменять знак заряда - p, сделать заряд статическим - s, изменить размер заряда - колёсико мыши, удалить последний заряд - Backspace, удалить все заряды - c.</p>
+                        <button class="btn btn-outline-dark shadow-none" , id="button-elem-ajax">Перейти к проекту</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+            <div class="front">
+                <!-- front content -->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src={% static 'img/pathImage.png' %} class="card-img-top" alt="Альтернатива1">
+                    </div>
+                </div>
+            </div>
+            <div class="back">
+                <!-- back content -->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Поиск путей</h5>
+                        <p class="card-text">Визуализация алгоритма поиска путей</p>
+                        <button class="btn btn-outline-dark shadow-none" , id="button-elem-ajax-2">Перейти к проекту</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src={% static 'js/redirect.js' %}></script>
+</div>

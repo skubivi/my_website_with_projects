@@ -1,0 +1,20 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+div {
+    margin-top: 2px;
+    margin-left: 1px;
+    background-color: black;
+}
+
+canvas {
+    display: block;
+}
+
+.btn {
+    background-color: black;
+}
